@@ -5,6 +5,7 @@ const requireDir = require('require-dir')
 
 //inicia app
 const app = express();
+app.use(express.json())
 
 
 ////connect db
